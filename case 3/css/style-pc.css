@@ -1,0 +1,370 @@
+@media screen and (min-device-width: 1024px) {
+
+.article-equipe-tablet { display: none; }
+
+} /* FIM @media screen */
+
+a { text-decoration: none; }
+
+body {
+  background: #FFDEAD;
+}
+
+/* Fontes */
+@font-face {
+    font-family: KhmerUI;
+    src: url(../font/KhmerUI.ttf);
+}
+@font-face {
+    font-family: KhmerUIb;
+    src: url(../font/KhmerUIb.ttf);
+}
+@font-face {
+    font-family: tt0142m;
+    src: url(../font/tt0142m.ttf);
+}
+@font-face {
+    font-family: tt0144m;
+    src: url(../font/tt0144m.ttf);
+}
+
+/* Barra de Navegação */
+nav {
+    position: fixed;
+    width: 100%;
+
+    z-index: 5;
+    background-color: #FFA54F;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: right;
+    margin-right: 2.5%;
+    box-sizing: border-box;
+}
+
+nav li:first-child {
+    margin-right: 5%;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+
+    font-family: tt0142m;
+    font-size: 19px;
+    text-decoration: none;
+    color: #0E8301;
+    text-align: center;
+}
+
+nav li img {
+    height: 46px;
+}
+
+.nav-logo {
+    float: left;
+    margin-left: 8%;
+    margin-top: 2px;
+    margin-right: 0;
+}
+
+.nav-logo a {
+    padding: 0;
+}
+
+/* Logo */
+.logo {
+    height: 27.6em;
+    width: 100%;
+    background: #FFDEAD;
+}
+
+.logo-top {
+    height: 54px;
+}
+
+.logo-down img {
+    height: 392px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-down {
+    /*background-image: url("../img/top-right-banner.png"), url("../img/top-left-banner.png");*/
+    background-position: right top, left top;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+/* Conteúdo */
+article h1,  article h3 {
+    text-align: center;
+}
+article h2 {
+  text-align: left;
+}
+article h1, article h2 {
+    font-family: KhmerUIb;
+	color: #0E8301;
+}
+
+article h2, article h3 {
+    color: #0E8301;
+}
+
+article a{ 
+  color: #0E8301;
+  text-transform: uppercase;
+}
+
+article ol li {
+  font-family: arial;
+  font-size: 1.2em;
+  text-align: justify;
+  color: #262626;
+}
+
+article h1 {
+    margin: 0;
+    padding: 1em 0;
+    clear: both;
+}
+
+article h3 {
+    font-family: KhmerUI;
+}
+
+article p {
+    font-family: arial;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #262626;
+}
+
+article {
+    color: #305286;
+    background-color: #FFDEAD;
+    overflow: auto;
+    z-index: 2;
+}
+
+
+
+/* Empresa */
+article h1:first-child {
+    margin-top: 2em;
+}
+
+.article-left {
+    position: relative;
+    float: left;
+    width: 35%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.article-center {
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.article-right {
+    position: relative;
+    float: right;
+    width: 35%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.article-margin {
+    margin-bottom: 1em;
+}
+
+/* Clientes e Parceiros */
+.article-logo {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.article-logo table, .article-logo tr, .article-logo td {
+    width: 100%;
+}
+
+.article-logo table {
+    margin-bottom: 3em;
+}
+
+.article-logo td {
+    width: 20%;
+    height: 5em;
+    text-align: center;
+}
+
+.article-logo td img {
+    height: 100px;
+}
+
+.article-logo h3 {
+
+    font-family: tt0142m;
+}
+
+/* Projetos */
+.article-projetos {
+    width: 100%;
+    text-align: center;
+}
+
+.article-projetos div {
+}
+
+/*.article-projetos iframe {
+    width: 420px;
+}*/
+
+/*.article-projetos table, .article-projetos tr{
+    width: 100%;
+}
+
+.article-projetos table {
+    margin-bottom: 3em;
+}
+
+.article-projetos td {
+    width: 33.33%;
+    text-align: center;
+}
+
+.article-projetos td img {
+    height: 10em;
+    width: 10em;
+}*/
+
+/* Equipe */
+.article-equipe {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.article-equipe h3, .article-equipe h4 {
+    margin: 0.1em 0em;
+}
+
+.article-equipe h4 {
+    font-family: tt0142m;
+    margin-bottom: 1em;
+}
+
+.article-equipe table, .article-equipe tr{
+    width: 100%;
+}
+
+.article-equipe table {
+    margin-bottom: 6em;
+}
+
+.article-equipe td {
+    width: 20%;
+    text-align: center;
+}
+
+.article-equipe td img {
+    border: 4px double #00A062;
+    border-radius: 7px;
+    height: 170px;
+}
+
+/* Footer - Contato */
+footer {
+    background-color: #FFA54F;
+    overflow: auto;
+}
+
+footer p, footer h2, footer h3 {
+    color: white;
+}
+
+footer h2 {
+    margin-top: 1.2em;
+    text-align: left;
+}
+
+.footer-left {
+    position: relative;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.footer-margin {
+    margin-bottom: 1.5em;
+}
+
+.footer-right {
+    position: relative;
+    float: right;
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.footer-right table, .footer-right tr {
+    width: 100%;
+}
+
+.footer-right td {
+    width: 25%;
+    text-align: center;
+    padding: 1em 0em 1.5em;
+}
+
+.footer-right td:first-child {
+    padding-top: 0.5em;
+}
+
+.imagem-footer-1 {
+    height: 2.5em;
+    width: 2.5em;
+    position: relative;;
+    top: 0.5em;
+}
+
+.imagem-footer-2 {
+    height: 3.5em;
+    width: 3.5em;
+}
+
+.imagem-footer-3 {
+    height: 3.5em;
+    width: 3.5em;
+}
+
+.imagem-footer-4 {
+    height: 3.5em;
+    width: 3.5em;
+}
+
+.imagem-footer-5 {
+    height: 2.5em;
+    width: 6em;
+}
+
+campo{
+  width:200px;
+  border-radius: 2px;
+  height: 30px;
+}

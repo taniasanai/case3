@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1025px) and (max-width: 1204px) {
+	div.logo-img {
+		left: calc(15% - 42px);
+	}
+
+	nav.jr-navbar, .navbar-large {
+		padding-left: 12%!important;
+		padding-right: 12%!important;
+	}
+	.col-md-8 {
+		width: 80%;
+	}
+}
+
+/************************* TABLET MEDIA QUERY *************************/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	div.logo-img {
+		left: calc(5% - 15px);
+	}
+
+	nav.jr-navbar, .navbar-large {
+		padding-left: 3%!important;
+		padding-right: 3%!important;
+	}
+
+	.col-md-8 {
+		width: 100%;
+	}
+
+	footer {
+		padding: 10px 0;
+	}
+
+	#dados-contato {
+		display: inline-block;
+	}
+
+	#social-links {
+		display: inline-block;
+		position: relative;
+		top: -20px;
+		float: right;
+	}
+
+	.fa {
+		font-size: 50px;
+	}
+}
+
+/************************* MOBILE MEDIA QUERY *************************/
+@media only screen and (max-width: 860px) {
+	div.logo-img {
+		left: calc(17% - 30px)!important;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-large {
+		padding: 7px 10px!important;
+	}
+	footer {
+		width: 100%;
+		padding: 10px 5px;
+		height: auto;
+	}
+	input, textarea, select {
+		width: 100%;
+	}
+}
